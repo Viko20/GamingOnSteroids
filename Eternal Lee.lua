@@ -2,7 +2,6 @@ require "DamageLib"
 require "Eternal Prediction"
 
 if myHero.charName ~= "Lee Sin" then return end
-if not _G.Prediction_Loaded then return end
 
 local myHero = _G.myHero
 
